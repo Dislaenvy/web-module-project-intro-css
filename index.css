@@ -1,0 +1,160 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+ 
+
+}
+
+body {
+display: flex;
+flex-direction: column;
+max-width: 1200px;
+margin: auto;
+
+}
+
+
+
+
+nav {
+background: white;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif; 
+ display: flex;
+justify-content: space-evenly;
+
+
+
+
+}
+
+nav a {
+    padding: 25px 20px;
+    text-decoration: none;
+    color:white;
+    width: 100px;
+    text-align: center;
+    border-radius: 15%;
+    margin: 10px 40px;
+    margin:10px 20px 30px 40px;
+  /*  display: flex;
+    justify-content:space-between;
+*/
+}
+
+nav a:hover{
+    font-size: 20px;
+    
+}
+a:nth-child(3n+1) {
+    background: #FF764E;
+}
+a:nth-child(3n+2){
+    background: #5ED3EB;
+}
+a:nth-child(3n+3) {
+    background: #FFCD69;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 400%;
+    margin-top: -35% auto;
+    width: 100%;
+    top: 15%;
+    display:flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    
+
+    
+}
+#enter {
+ top:35%;  
+width: 85%;
+height:100px;
+display: flex;
+text-align: center;
+  
+}
+.valley {
+ background: #DDB9A3;
+ color:white;
+ 
+  
+}
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+float: left;
+width: 85%;
+
+}
+
+header p {
+width: 100%;
+right: -5%;
+
+
+}
+
+
+.park{
+ width: 300px;
+
+}
+
+.park img { 
+    border-radius: 100%;
+    width:100%;
+    
+}
+
+.headerText {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle {
+max-width: 30%;
+margin: auto;
+display: flex;
+flex-direction: column;
+
+
+}
+.logo {
+width: 80%;
+
+
+}
+.logo img {
+ width: 100%;
+
+}
+
+.footerimg {
+max-height: 200px;
+overflow: hidden;
+
+}
+
+ .footerimg img {
+     width: 100%;
+    height:400px;
+    object-fit: fill;
+    border-radius: 0%;
+    position: relative;
+    left: 0px;
+    
+
+
+ }
+ footer nav {
+     background: #F9E7DC;
+    margin-top: auto;
+ }
