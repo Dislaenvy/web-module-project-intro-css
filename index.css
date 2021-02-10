@@ -1,28 +1,23 @@
 * {
     font-family: 'Roboto Mono', monospace;
-
 }
 
 body {
-display: flex;
-flex-direction: column;
-max-width: 1200px;
-margin: auto;
-background-image:url('https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev53b5073f17c63326332c9b737074d62b.jpg');
-background-attachment:fixed;
-background-size:cover;
-background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    background-image:url('https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev53b5073f17c63326332c9b737074d62b.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
-
-
-
 nav {
-font-size: 15px;
-font-family: Arial, Helvetica, sans-serif; 
- display: flex;
-justify-content: space-evenly;
-
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -40,9 +35,6 @@ button{
     background: none;
     border-radius: 10px;
 }
-/* button:nth-child(3n+1) {
-    border: #FF764E;
-} */
 
 nav a:hover{
     font-size: 20px;
@@ -68,48 +60,39 @@ h1 {
     display:flex;
     justify-content:space-evenly;
     align-content:space-evenly;
-    color: #ffbb00ea;
-    /* border: 1px solid red; */
-    
+    color: #ffbb00ea; 
 }
-#enter {
- top:35%;  
-width: 75%;
-height:100px;
-display: flex;
-text-align: center;
-margin: 0 auto;
 
+#enter {
+    top:35%;  
+    width: 75%;
+    height:100px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .valley {
- background: #DDB9A3;
- color:black;
- padding: 20px;
- 
- 
+    background: #DDB9A3;
+    color:black;
+    padding: 20px;
 }
 
 header {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-float: left;
-width: 85%;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    width: 85%;
 }
 
 header p {
-width: 100%;
-right: -5%;
-
-
+    width: 100%;
+    right: -5%;
 }
 
-
 .park{
- width: 300px;
-
+    width: 300px;
 }
 
 .park img { 
@@ -124,18 +107,12 @@ right: -5%;
     justify-content: center;
     flex-direction: column;
 }
-/* .bgImg{
-    border: 1px solid red;
-    width: 50%;
-    height: 50%;
-    
-} */
-.middle {
-max-width: 30%;
-margin: 20px auto;
-display: flex;
-flex-direction: column;
 
+.middle {
+    max-width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
 }
 .middle span:hover{
     background: none;
@@ -143,28 +120,26 @@ flex-direction: column;
     font-size: 1.2rem;
     background: #DDB9A3;
 }
+
 .middle span{
-/* border: 1px solid red; */
-font-family: 'Inconsolata', monospace;
-padding: 5% 5%;
-margin: 10% auto;
-color: #2F4F4F;
-font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    padding: 5% 5%;
+    margin: 10% auto;
+    olor: #2F4F4F;
+    font-size: 20px;
 }
+
 .logo {
-width: 80%;
-
+    width: 80%;
 }
+
 .logo img {
-width: 100%;
-
-
+    width: 100%;
 }
 
 .footerimg {
-max-height: 200px;
-overflow: hidden;
-
+    max-height: 200px;
+    overflow: hidden;
 }
 
 .footerimg img {
@@ -175,8 +150,6 @@ overflow: hidden;
     position: relative;
     left: 0px;
     
-
-
 }
 footer nav {
     background: #F9E7DC;
