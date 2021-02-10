@@ -1,44 +1,39 @@
 * {
     font-family: 'Roboto Mono', monospace;
- 
-
 }
 
 body {
-display: flex;
-flex-direction: column;
-max-width: 1200px;
-margin: auto;
-
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    background-image:url('https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev53b5073f17c63326332c9b737074d62b.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
-
-
-
 nav {
-background: white;
-font-size: 15px;
-font-family: Arial, Helvetica, sans-serif; 
- display: flex;
-justify-content: space-evenly;
-
-
-
-
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
     padding: 25px 20px;
     text-decoration: none;
     color:white;
-    width: 100px;
     text-align: center;
     border-radius: 15%;
     margin: 10px 40px;
     margin:10px 20px 30px 40px;
-  /*  display: flex;
-    justify-content:space-between;
-*/
+    
+}
+button{
+    /* border: 1px solid red; */
+    background: none;
+    border-radius: 10px;
 }
 
 nav a:hover{
@@ -65,45 +60,39 @@ h1 {
     display:flex;
     justify-content:space-evenly;
     align-content:space-evenly;
-    
+    color: #ffbb00ea; 
+}
 
-    
-}
 #enter {
- top:35%;  
-width: 85%;
-height:100px;
-display: flex;
-text-align: center;
-  
+    top:35%;  
+    width: 75%;
+    height:100px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
 }
+
 .valley {
- background: #DDB9A3;
- color:white;
- 
-  
+    background: #DDB9A3;
+    color:black;
+    padding: 20px;
 }
 
 header {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-float: left;
-width: 85%;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    width: 85%;
 }
 
 header p {
-width: 100%;
-right: -5%;
-
-
+    width: 100%;
+    right: -5%;
 }
 
-
 .park{
- width: 300px;
-
+    width: 300px;
 }
 
 .park img { 
@@ -120,41 +109,51 @@ right: -5%;
 }
 
 .middle {
-max-width: 30%;
-margin: auto;
-display: flex;
-flex-direction: column;
-
-
+    max-width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
 }
+.middle span:hover{
+    background: none;
+    color: #143D59;
+    font-size: 1.2rem;
+    background: #DDB9A3;
+}
+
+.middle span{
+    font-family: 'Inconsolata', monospace;
+    padding: 5% 5%;
+    margin: 10% auto;
+    olor: #2F4F4F;
+    font-size: 20px;
+}
+
 .logo {
-width: 80%;
-
-
+    width: 80%;
 }
-.logo img {
- width: 100%;
 
+.logo img {
+    width: 100%;
 }
 
 .footerimg {
-max-height: 200px;
-overflow: hidden;
-
+    max-height: 200px;
+    overflow: hidden;
 }
 
- .footerimg img {
-     width: 100%;
+.footerimg img {
+    width: 100%;
     height:400px;
     object-fit: fill;
     border-radius: 0%;
     position: relative;
     left: 0px;
     
-
-
- }
- footer nav {
-     background: #F9E7DC;
+}
+footer nav {
+    background: #F9E7DC;
     margin-top: auto;
- }
+    background: none;
+    
+}
